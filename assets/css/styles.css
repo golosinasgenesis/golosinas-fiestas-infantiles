@@ -1,0 +1,119 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
+
+/*
+crimson
+*/
+
+.t-card-title {
+    background-color: #000;
+    opacity: 0.88;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 3px 20px;
+    position: absolute;
+    top: 0;
+    font-size: 18px;
+}
+
+.t-card-title, .t-hom-bus-saved a span {
+    z-index: 100;
+    font-weight: 500;
+    color: #fff;
+}
+
+ .t-card-label {
+    background-color: rgba(0,192,83,.9);
+    opacity: 0.88;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 3px 20px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.t-card-label, .t-hom-bus-saved a span {
+    z-index: 100;
+    font-weight: 500;
+    color: #fff;
+}
+
+.sdsd{
+    color: coral
+}
+
+
+.whatsapp {
+    position:fixed;
+    width:80px;
+    height:80px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:50px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
